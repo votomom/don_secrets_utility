@@ -1,0 +1,5 @@
+# Extra deps for `don-secrets encrypt`
+web3
+ecdsa
+cryptography
+
