@@ -5,7 +5,6 @@ Minimal, cross-platform Python scripts that replace the **DON-hosted secrets** p
 - **`encrypt_secrets.py`**: create `encryptedSecretsHexstring` (sign → ECIES → TDH2)
 - **`upload_don_secrets.py`**: upload secrets to Functions gateways (`secrets_set`)
 
-No custom console command, no packaging required — just run Python scripts.
 
 ## Quick start (terminal scripts)
 
