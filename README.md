@@ -1,6 +1,10 @@
 ## DON Secrets Utility (Python)
 
-Minimal, cross-platform Python scripts that replace the **DON-hosted secrets** parts of `@chainlink/functions-toolkit`:
+Many developers using Python + Solidity face a common problem: interacting with Chainlink DON requires JavaScript and the Chainlink Functions Toolkit.
+
+This tool solves that problem by providing a Python-only solution for uploading secrets to Chainlink DON.
+
+No Node.js, no JavaScript, no extra dependencies.
 
 - **`encrypt_secrets.py`**: create `encryptedSecretsHexstring` (sign → ECIES → TDH2)
 - **`upload_don_secrets.py`**: upload secrets to Functions gateways (`secrets_set`)
@@ -135,6 +139,15 @@ Note: encryption requires: `pip install -r requirements-encrypt.txt`.
 
 Chainlink Functions lets your on-chain consumer reference **DON-hosted secrets** via:
 `req.addDONHostedSecrets(slotId, version)`.
+
+Use this tool if you:
+
+- Build smart contracts with Solidity and Python (Brownie, web3.py)
+- Want to interact with Chainlink DON without JavaScript
+- Need to upload secrets to Chainlink Functions
+- Prefer Python-based blockchain development workflows
+- Want to avoid Node.js and JS dependency overhead
+
 
 This project helps you:
 1) generate the encrypted payload (`encryptedSecretsHexstring`)
