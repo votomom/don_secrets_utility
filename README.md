@@ -1,4 +1,4 @@
-## DON Secrets Utility (Python)
+##Chainlink DON Secrets Utility (Python)
 
 Many developers using Python + Solidity face a common problem: interacting with Chainlink DON requires JavaScript and the Chainlink Functions Toolkit.
 
@@ -169,4 +169,22 @@ If this repo saved you some time, I’d love it if you:
 
 ETH tip jar:
 `0x7cb23658373178282CD716A230e5dd4f63a8efAF`
+
+
+
+#########################################
+
+
+
+Chainlink DON secrets uploader in Python.
+
+Python alternative to Chainlink Functions Toolkit.
+
+Upload secrets to Chainlink DON without JavaScript.
+
+Chainlink Functions Python integration.
+
+Python tool for Chainlink oracle interaction.
+
+Web3 Python + Solidity workflow without JS.
 
